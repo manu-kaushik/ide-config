@@ -76,7 +76,7 @@ GitLens, Error Lens, Todo Tree, Path Intellisense, Spell Checker, Markdown, YAML
 
 | Key | Command | Description |
 |-----|---------|-------------|
-| `Alt+C` | `claude-code.focus` | Open Claude Code in sidebar |
+| `Alt+C` | `claude-vscode.sidebar.open` | Open Claude Code in sidebar |
 | `Numpad -` | `workbench.action.terminal.clear` | Clear the terminal |
 
 ---

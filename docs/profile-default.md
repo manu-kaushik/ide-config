@@ -70,5 +70,5 @@ General-purpose profile for miscellaneous projects, config editing, scripting, o
 
 | Key | Command | Description |
 |-----|---------|-------------|
-| `Alt+C` | `claude-code.focus` | Open Claude Code in sidebar |
+| `Alt+C` | `claude-vscode.sidebar.open` | Open Claude Code in sidebar |
 | `Numpad -` | `workbench.action.terminal.clear` | Clear the terminal |

@@ -82,7 +82,7 @@ Format on save is enabled globally for this profile (`"editor.formatOnSave": tru
 
 | Key | Command | Description |
 |-----|---------|-------------|
-| `Alt+C` | `claude-code.focus` | Open Claude Code in sidebar |
+| `Alt+C` | `claude-vscode.sidebar.open` | Open Claude Code in sidebar |
 | `Numpad -` | `workbench.action.terminal.clear` | Clear the terminal |
 
 ---
