@@ -65,4 +65,4 @@ Global settings stored in `settings.json`. These apply to **every profile** as t
 
 - **Settings vs Profile settings**: If you want a setting to apply everywhere unconditionally, put it here. If it should only apply within a specific language or project type, put it in the relevant profile's `[language]` block instead.
 - **How to edit**: `Ctrl+Shift+P → Preferences: Open User Settings (JSON)` opens the live file. Changes here take effect immediately without reloading.
-- **Extra tooling**: Optional extension-specific overrides (e.g. for inline completion tools) are kept in separate files in the repo root. Merge them into your user settings as needed — see the repo root for any `*-settings.json` files.
+- **Windsurf**: `settings.json` inside the `windsurf/` folder disables Windsurf agent features (ACP, Devin). Merge into your user settings if using Windsurf for inline completion.

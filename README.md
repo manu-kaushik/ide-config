@@ -16,14 +16,6 @@ Single VSCode installation configured to act as a specialized IDE per project ty
 
 [User Settings](docs/user-settings.md) — global settings applied on top of every profile (`settings.json`).
 
-## Extra Settings
-
-Optional settings files in the repo root for specific tools. Merge into your VSCode user settings as needed.
-
-| File | Purpose |
-|------|---------|
-| `windsurf-settings.json` | Disables Windsurf agent features (ACP, Devin) — apply if using Windsurf for inline completion |
-
 ## How Profiles Work
 
 - Each `.code-profile` file contains its own **extensions**, **settings**, and **keybindings**
@@ -56,3 +48,11 @@ Optional settings files in the repo root for specific tools. Merge into your VSC
 | `kisstkondoros.vscode-gutter-preview` | Image preview in gutter |
 | `ms-azuretools.vscode-docker` | Docker management |
 | `ms-azuretools.vscode-containers` | Container tools |
+
+## Windsurf Settings
+
+`settings.json` inside the `windsurf/` folder disables Windsurf agent features (ACP, Devin). Merge into your VSCode user settings if using Windsurf for inline completion.
+
+## Claude Commands
+
+`/commit-message` — generates a conventional commit message for staged changes without committing. The command file is `commit-message.md` inside the `.claude/commands/` folder. Place it there at the project level (as it is here) to scope it to this repo, or in `~/.claude/commands/` to make it available globally across all projects.
