@@ -9,25 +9,25 @@ Cross-platform mobile development with Flutter/Dart. Includes native Android too
 ## Extensions (21)
 
 ### Flutter & Dart
-| Extension | ID | Purpose |
-|-----------|----|---------|
-| Flutter | `dart-code.flutter` | Hot reload, device picker, flutter run/test, widget inspector |
-| Dart | `dart-code.dart-code` | Dart language server — completions, diagnostics, formatting, pub |
-| Awesome Flutter Snippets | `nash.awesome-flutter-snippets` | Snippets for StatelessWidget, StatefulWidget, providers, etc. |
+| Extension                | ID                              | Purpose                                                          |
+| ------------------------ | ------------------------------- | ---------------------------------------------------------------- |
+| Flutter                  | `dart-code.flutter`             | Hot reload, device picker, flutter run/test, widget inspector    |
+| Dart                     | `dart-code.dart-code`           | Dart language server — completions, diagnostics, formatting, pub |
+| Awesome Flutter Snippets | `nash.awesome-flutter-snippets` | Snippets for StatelessWidget, StatefulWidget, providers, etc.    |
 
 > Dart extension handles pub package management natively (no separate pub extension needed).
 
 ### Android (Java / Kotlin / Gradle)
-| Extension | ID | Purpose |
-|-----------|----|---------|
-| Language Support for Java | `redhat.java` | Java language server — completions, go-to-def, refactor |
-| Kotlin | `fwcd.kotlin` | Kotlin syntax, diagnostics, run/debug |
-| Gradle for Java | `vscjava.vscode-gradle` | Gradle task runner, build scripts, dependencies |
+| Extension                 | ID                      | Purpose                                                 |
+| ------------------------- | ----------------------- | ------------------------------------------------------- |
+| Language Support for Java | `redhat.java`           | Java language server — completions, go-to-def, refactor |
+| Kotlin                    | `fwcd.kotlin`           | Kotlin syntax, diagnostics, run/debug                   |
+| Gradle for Java           | `vscjava.vscode-gradle` | Gradle task runner, build scripts, dependencies         |
 
 ### iOS (Swift)
-| Extension | ID | Purpose |
-|-----------|----|---------|
-| Swift | `sswg.swift-lang` | Swift language server (sourcekit-lsp), completions, diagnostics |
+| Extension | ID                | Purpose                                                         |
+| --------- | ----------------- | --------------------------------------------------------------- |
+| Swift     | `sswg.swift-lang` | Swift language server (sourcekit-lsp), completions, diagnostics |
 
 ### Universal (shared with all profiles)
 GitLens, Error Lens, Todo Tree, Path Intellisense, Markdown, YAML, Dev Containers, WSL, Docker, Color Highlight, Image Preview, Material Icons.
@@ -59,13 +59,13 @@ GitLens, Error Lens, Todo Tree, Path Intellisense, Markdown, YAML, Dev Container
 
 ### Native language formatting
 
-| Language | Indent | Line limit | Notes |
-|----------|--------|-----------|-------|
-| Dart | 2 spaces | 80 chars | `dart format` standard |
-| Java | 4 spaces | 120 chars | Google Java style |
-| Kotlin | 4 spaces | 120 chars | Kotlin coding conventions |
-| Swift | 4 spaces | 120 chars | Swift style guide |
-| Groovy | 4 spaces | — | Gradle build scripts |
+| Language | Indent   | Line limit | Notes                     |
+| -------- | -------- | ---------- | ------------------------- |
+| Dart     | 2 spaces | 80 chars   | `dart format` standard    |
+| Java     | 4 spaces | 120 chars  | Google Java style         |
+| Kotlin   | 4 spaces | 120 chars  | Kotlin coding conventions |
+| Swift    | 4 spaces | 120 chars  | Swift style guide         |
+| Groovy   | 4 spaces | —          | Gradle build scripts      |
 
 ### Debugging
 ```json
@@ -91,10 +91,10 @@ GitLens, Error Lens, Todo Tree, Path Intellisense, Markdown, YAML, Dev Container
 
 ## Keybindings
 
-| Key | Command | Description |
-|-----|---------|-------------|
-| `Alt+C` | `claude-vscode.sidebar.open` | Open Claude Code in sidebar |
-| `Numpad -` | `workbench.action.terminal.clear` | Clear the terminal |
+| Key        | Command                           | Description                 |
+| ---------- | --------------------------------- | --------------------------- |
+| `Alt+C`    | `claude-vscode.sidebar.open`      | Open Claude Code in sidebar |
+| `Numpad -` | `workbench.action.terminal.clear` | Clear the terminal          |
 
 ---
 

@@ -2,10 +2,9 @@
     "window.commandCenter": true,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "workbench.iconTheme": "material-icon-theme",
-"window.newWindowProfile": "Default",
+    "window.newWindowProfile": "Default",
     "git.openRepositoryInParentFolders": "never",
     "claudeCode.preferredLocation": "sidebar",
-
     "editor.stickyScroll.enabled": true,
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
@@ -18,7 +17,6 @@
         "source.fixAll": "explicit",
         "source.organizeImports": "explicit"
     },
-
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },

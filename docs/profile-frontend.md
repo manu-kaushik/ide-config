@@ -9,27 +9,27 @@ JavaScript/TypeScript frontend development. Covers React, Vue, Svelte, Astro, an
 ## Extensions (25)
 
 ### Language Servers & Linting
-| Extension | ID | Purpose |
-|-----------|----|---------|
-| ESLint | `dbaeumer.vscode-eslint` | JS/TS linting, integrates with project's `.eslintrc` |
-| JavaScript & TypeScript Nightly | `ms-vscode.vscode-typescript-next` | Latest TypeScript compiler for cutting-edge TS features |
-| Svelte for VS Code | `svelte.svelte-vscode` | Svelte language server — completions, diagnostics, formatting |
-| Astro | `astro-build.astro-vscode` | Astro file support — `.astro` syntax, components |
+| Extension                       | ID                                 | Purpose                                                       |
+| ------------------------------- | ---------------------------------- | ------------------------------------------------------------- |
+| ESLint                          | `dbaeumer.vscode-eslint`           | JS/TS linting, integrates with project's `.eslintrc`          |
+| JavaScript & TypeScript Nightly | `ms-vscode.vscode-typescript-next` | Latest TypeScript compiler for cutting-edge TS features       |
+| Svelte for VS Code              | `svelte.svelte-vscode`             | Svelte language server — completions, diagnostics, formatting |
+| Astro                           | `astro-build.astro-vscode`         | Astro file support — `.astro` syntax, components              |
 
 ### Formatting
-| Extension | ID | Purpose |
-|-----------|----|---------|
-| Prettier | `esbenp.prettier-vscode` | Formatter for JS, TS, JSX, TSX, CSS, JSON |
+| Extension | ID                       | Purpose                                   |
+| --------- | ------------------------ | ----------------------------------------- |
+| Prettier  | `esbenp.prettier-vscode` | Formatter for JS, TS, JSX, TSX, CSS, JSON |
 
 ### Productivity
-| Extension | ID | Purpose |
-|-----------|----|---------|
-| ES7+ React Snippets | `dsznajder.es7-react-js-snippets` | `rfc`, `rafce`, `useState`, hooks snippets |
-| Tailwind CSS IntelliSense | `bradlc.vscode-tailwindcss` | Class autocomplete, hover preview, sorting |
-| Auto Rename Tag | `formulahendry.auto-rename-tag` | Renames matching HTML/JSX closing tag |
-| HTML CSS Support | `ecmel.vscode-html-css` | CSS class/id autocomplete in HTML files |
-| npm Intellisense | `christian-kohler.npm-intellisense` | Autocomplete npm package names in `import` statements |
-| Import Cost | `wix.vscode-import-cost` | Shows the bundle size of each import inline |
+| Extension                 | ID                                  | Purpose                                               |
+| ------------------------- | ----------------------------------- | ----------------------------------------------------- |
+| ES7+ React Snippets       | `dsznajder.es7-react-js-snippets`   | `rfc`, `rafce`, `useState`, hooks snippets            |
+| Tailwind CSS IntelliSense | `bradlc.vscode-tailwindcss`         | Class autocomplete, hover preview, sorting            |
+| Auto Rename Tag           | `formulahendry.auto-rename-tag`     | Renames matching HTML/JSX closing tag                 |
+| HTML CSS Support          | `ecmel.vscode-html-css`             | CSS class/id autocomplete in HTML files               |
+| npm Intellisense          | `christian-kohler.npm-intellisense` | Autocomplete npm package names in `import` statements |
+| Import Cost               | `wix.vscode-import-cost`            | Shows the bundle size of each import inline           |
 
 ### Universal (shared with all profiles)
 GitLens, Error Lens, Todo Tree, Path Intellisense, Markdown, YAML, Dev Containers, WSL, Docker, Color Highlight, Image Preview, Material Icons.
@@ -42,16 +42,16 @@ GitLens, Error Lens, Todo Tree, Path Intellisense, Markdown, YAML, Dev Container
 
 All JS/TS family files use **Prettier** as the formatter, **2 spaces** indent, **100 char** line limit.
 
-| Language | Indent | Line limit | Formatter |
-|----------|--------|-----------|-----------|
-| JavaScript | 2 spaces | 100 chars | Prettier |
-| TypeScript | 2 spaces | 100 chars | Prettier |
-| JSX | 2 spaces | 100 chars | Prettier |
-| TSX | 2 spaces | 100 chars | Prettier |
-| CSS | 2 spaces | — | Prettier |
-| HTML | 2 spaces | — | — |
-| JSON | — | — | VSCode built-in |
-| JSONC | — | — | Prettier |
+| Language   | Indent   | Line limit | Formatter       |
+| ---------- | -------- | ---------- | --------------- |
+| JavaScript | 2 spaces | 100 chars  | Prettier        |
+| TypeScript | 2 spaces | 100 chars  | Prettier        |
+| JSX        | 2 spaces | 100 chars  | Prettier        |
+| TSX        | 2 spaces | 100 chars  | Prettier        |
+| CSS        | 2 spaces | —          | Prettier        |
+| HTML       | 2 spaces | —          | —               |
+| JSON       | —        | —          | VSCode built-in |
+| JSONC      | —        | —          | Prettier        |
 
 Format on save is enabled globally for this profile (`"editor.formatOnSave": true`).
 
@@ -80,10 +80,10 @@ Format on save is enabled globally for this profile (`"editor.formatOnSave": tru
 
 ## Keybindings
 
-| Key | Command | Description |
-|-----|---------|-------------|
-| `Alt+C` | `claude-vscode.sidebar.open` | Open Claude Code in sidebar |
-| `Numpad -` | `workbench.action.terminal.clear` | Clear the terminal |
+| Key        | Command                           | Description                 |
+| ---------- | --------------------------------- | --------------------------- |
+| `Alt+C`    | `claude-vscode.sidebar.open`      | Open Claude Code in sidebar |
+| `Numpad -` | `workbench.action.terminal.clear` | Clear the terminal          |
 
 ---
 
