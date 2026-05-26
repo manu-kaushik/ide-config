@@ -6,7 +6,7 @@ Full-stack Laravel development — PHP backend, Blade templates, Livewire compon
 
 ---
 
-## Extensions (28)
+## Extensions (26)
 
 ### PHP & Laravel Core
 | Extension | ID | Purpose |
@@ -29,13 +29,8 @@ Full-stack Laravel development — PHP backend, Blade templates, Livewire compon
 | Auto Rename Tag | `formulahendry.auto-rename-tag` | Renames matching HTML/JSX closing tag |
 | HTML CSS Support | `ecmel.vscode-html-css` | CSS class autocomplete in HTML/Blade |
 
-### Database
-| Extension | ID | Purpose |
-|-----------|----|---------|
-| Database Client | `cweijan.vscode-database-client2` | MySQL/PostgreSQL/SQLite client inside VSCode (like PHPStorm's DB tool) |
-
 ### Universal (shared with all profiles)
-GitLens, Error Lens, Todo Tree, Path Intellisense, Spell Checker, Markdown, YAML, Dev Containers, WSL, Docker, Color Highlight, Image Preview, Material Icons.
+GitLens, Error Lens, Todo Tree, Path Intellisense, Markdown, YAML, Dev Containers, WSL, Docker, Color Highlight, Image Preview, Material Icons.
 
 ---
 
@@ -45,10 +40,12 @@ GitLens, Error Lens, Todo Tree, Path Intellisense, Spell Checker, Markdown, YAML
 ```json
 {
   "php.validate.enable": false,
-  "intelephense.environment.phpVersion": "8.2"
+  "intelephense.environment.phpVersion": "8.2",
+  "intelephense.diagnostics.undefinedFunctions": false,
+  "intelephense.diagnostics.undefinedConstants": false
 }
 ```
-> `php.validate.enable: false` disables VSCode's built-in PHP validator which conflicts with Intelephense and causes false positives.
+> `php.validate.enable: false` disables VSCode's built-in PHP validator which conflicts with Intelephense and causes false positives. The two `intelephense.diagnostics` settings suppress false errors for Laravel helper functions (`route()`, `config()`, etc.) and constants that Intelephense can't statically resolve.
 
 Intelephense stubs are configured to include `laravel` and `phpunit` on top of all standard PHP extensions.
 

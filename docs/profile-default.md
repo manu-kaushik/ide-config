@@ -6,7 +6,7 @@ General-purpose profile for miscellaneous projects, config editing, scripting, o
 
 ---
 
-## Extensions (14)
+## Extensions (13)
 
 ### Universal Tools
 | Extension | ID | Purpose |
@@ -15,7 +15,6 @@ General-purpose profile for miscellaneous projects, config editing, scripting, o
 | Error Lens | `usernamehw.errorlens` | Inline errors/warnings on the same line |
 | Todo Tree | `gruntfuggly.todo-tree` | Scans for TODO/FIXME/HACK and shows them in a tree |
 | Path Intellisense | `christian-kohler.path-intellisense` | Autocomplete file paths in code |
-| Code Spell Checker | `streetsidesoftware.code-spell-checker` | Spell check across code, strings, and comments |
 | Image Preview | `kisstkondoros.vscode-gutter-preview` | Shows image preview in the gutter |
 | Color Highlight | `naumovs.color-highlight` | Highlights color values inline |
 | Material Icon Theme | `pkief.material-icon-theme` | File/folder icons |
@@ -44,7 +43,6 @@ General-purpose profile for miscellaneous projects, config editing, scripting, o
   "window.newWindowProfile": "Default",
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "workbench.iconTheme": "material-icon-theme",
-  "files.autoSave": "afterDelay",
   "git.openRepositoryInParentFolders": "never",
   "editor.stickyScroll.enabled": true,
   "editor.bracketPairColorization.enabled": true,

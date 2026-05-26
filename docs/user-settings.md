@@ -22,7 +22,6 @@ Global settings stored in `settings.json`. These apply to **every profile** as t
 
 | Setting | Value | Reason |
 |---------|-------|--------|
-| `files.autoSave` | `"afterDelay"` | Auto-saves after a short delay |
 | `git.openRepositoryInParentFolders` | `"never"` | Prevents VSCode from walking up to find a git repo in parent directories |
 
 ### Editor Intelligence
@@ -40,18 +39,23 @@ Global settings stored in `settings.json`. These apply to **every profile** as t
 | Setting | Value | Reason |
 |---------|-------|--------|
 | `editor.formatOnSave` | `true` | Runs the file's configured formatter on every save |
+| `editor.defaultFormatter` | `esbenp.prettier-vscode` | Global fallback formatter — Prettier handles HTML, CSS, JS, TS, JSON, Markdown out of the box |
 | `editor.codeActionsOnSave` | `source.fixAll` + `source.organizeImports` | Auto-fixes linting errors and sorts imports on save (no-op for languages that don't support it) |
 
 ### Language-Specific Defaults
 
-| Language | Setting | Value |
-|----------|---------|-------|
-| Markdown | `editor.wordWrap` | `"on"` — wraps long lines |
-| Markdown | `editor.quickSuggestions` | Enabled for text, off for comments/strings |
-| YAML | `editor.tabSize` | `2` |
-| YAML | `editor.formatOnSave` | `true` |
-| JSON | `editor.defaultFormatter` | VSCode built-in |
-| JSONC | `editor.defaultFormatter` | Prettier |
+| Language | Formatter |
+|----------|-----------|
+| JavaScript / JSX | Prettier |
+| TypeScript / TSX | Prettier |
+| HTML | Prettier |
+| CSS / SCSS | Prettier |
+| JSON | VSCode built-in |
+| JSONC | Prettier |
+| YAML | — (format on save enabled, 2 space indent) |
+| Markdown | — (word wrap on, quick suggestions enabled) |
+
+Language-specific formatters for PHP, Python, and Dart are set in their respective profiles since they depend on profile-specific extensions.
 
 ### Claude Code
 

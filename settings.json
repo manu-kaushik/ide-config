@@ -2,20 +2,49 @@
     "window.commandCenter": true,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "workbench.iconTheme": "material-icon-theme",
-    "files.autoSave": "afterDelay",
-    "window.newWindowProfile": "Default",
+"window.newWindowProfile": "Default",
     "git.openRepositoryInParentFolders": "never",
     "claudeCode.preferredLocation": "sidebar",
+
     "editor.stickyScroll.enabled": true,
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
     "editor.inlayHints.enabled": "on",
     "editor.suggest.preview": true,
     "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "workbench.editor.highlightModifiedTabs": true,
     "editor.codeActionsOnSave": {
         "source.fixAll": "explicit",
         "source.organizeImports": "explicit"
+    },
+
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[markdown]": {
         "editor.wordWrap": "on",
@@ -29,11 +58,5 @@
         "editor.tabSize": 2,
         "editor.insertSpaces": true,
         "editor.formatOnSave": true
-    },
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
 }

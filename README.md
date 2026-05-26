@@ -37,7 +37,6 @@ Single VSCode installation configured to act as a specialized IDE per project ty
 | `usernamehw.errorlens` | Inline error/warning display |
 | `eamodio.gitlens` | Git blame, history, diff |
 | `christian-kohler.path-intellisense` | File path autocomplete |
-| `streetsidesoftware.code-spell-checker` | Spell check in code and comments |
 | `yzhang.markdown-all-in-one` | Markdown preview, shortcuts, TOC |
 | `redhat.vscode-yaml` | YAML language support |
 | `ms-vscode-remote.remote-containers` | Dev Containers — run LSP inside Docker |
