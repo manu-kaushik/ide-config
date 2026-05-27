@@ -27,7 +27,7 @@ Cross-platform mobile development with Flutter/Dart. Includes native Android too
 ### iOS (Swift)
 | Extension | ID                | Purpose                                                         |
 | --------- | ----------------- | --------------------------------------------------------------- |
-| Swift     | `sswg.swift-lang` | Swift language server (sourcekit-lsp), completions, diagnostics |
+| Swift     | `swiftlang.swift-vscode` | Swift language server (sourcekit-lsp), completions, diagnostics |
 
 ### Universal (shared with all profiles)
 GitLens, Error Lens, Todo Tree, Path Intellisense, Markdown, YAML, Dev Containers, WSL, Docker, Color Highlight, Image Preview, Material Icons, DotENV.
