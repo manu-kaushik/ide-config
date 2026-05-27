@@ -48,6 +48,10 @@ Single VSCode installation configured to act as a specialized IDE per project ty
 | `ms-azuretools.vscode-docker`         | Docker management                      |
 | `ms-azuretools.vscode-containers`     | Container tools                        |
 
+## Sidebar Layout
+
+All profiles have the Activity Bar ordered as: Explorer → Search → Source Control → Container Tools → Extensions. This is applied to each `.code-profile` and applied automatically on import.
+
 ## Windsurf Settings
 
 `settings.json` inside the `windsurf/` folder disables Windsurf agent features (ACP, Devin). Merge into your VSCode user settings if using Windsurf for inline completion.
