@@ -6,7 +6,7 @@ General-purpose profile for miscellaneous projects, config editing, scripting, o
 
 ---
 
-## Extensions (13)
+## Extensions (14)
 
 ### Universal Tools
 | Extension           | ID                                    | Purpose                                            |
@@ -18,6 +18,7 @@ General-purpose profile for miscellaneous projects, config editing, scripting, o
 | Image Preview       | `kisstkondoros.vscode-gutter-preview` | Shows image preview in the gutter                  |
 | Color Highlight     | `naumovs.color-highlight`             | Highlights color values inline                     |
 | Material Icon Theme | `pkief.material-icon-theme`           | File/folder icons                                  |
+| DotENV              | `mikestead.dotenv`                    | Syntax highlighting for `.env` files               |
 
 ### Markdown & YAML
 | Extension           | ID                           | Purpose                                       |

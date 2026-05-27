@@ -6,7 +6,7 @@ JavaScript/TypeScript frontend development. Covers React, Vue, Svelte, Astro, an
 
 ---
 
-## Extensions (25)
+## Extensions (26)
 
 ### Language Servers & Linting
 | Extension                       | ID                                 | Purpose                                                       |
@@ -32,7 +32,7 @@ JavaScript/TypeScript frontend development. Covers React, Vue, Svelte, Astro, an
 | Import Cost               | `wix.vscode-import-cost`            | Shows the bundle size of each import inline           |
 
 ### Universal (shared with all profiles)
-GitLens, Error Lens, Todo Tree, Path Intellisense, Markdown, YAML, Dev Containers, WSL, Docker, Color Highlight, Image Preview, Material Icons.
+GitLens, Error Lens, Todo Tree, Path Intellisense, Markdown, YAML, Dev Containers, WSL, Docker, Color Highlight, Image Preview, Material Icons, DotENV.
 
 ---
 

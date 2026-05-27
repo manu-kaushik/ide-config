@@ -6,7 +6,7 @@ Full-stack Laravel development — PHP backend, Blade templates, Livewire compon
 
 ---
 
-## Extensions (26)
+## Extensions (27)
 
 ### PHP & Laravel Core
 | Extension              | ID                                     | Purpose                                                             |
@@ -30,7 +30,7 @@ Full-stack Laravel development — PHP backend, Blade templates, Livewire compon
 | HTML CSS Support          | `ecmel.vscode-html-css`           | CSS class autocomplete in HTML/Blade                |
 
 ### Universal (shared with all profiles)
-GitLens, Error Lens, Todo Tree, Path Intellisense, Markdown, YAML, Dev Containers, WSL, Docker, Color Highlight, Image Preview, Material Icons.
+GitLens, Error Lens, Todo Tree, Path Intellisense, Markdown, YAML, Dev Containers, WSL, Docker, Color Highlight, Image Preview, Material Icons, DotENV.
 
 ---
 

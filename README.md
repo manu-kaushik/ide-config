@@ -6,11 +6,13 @@ Single VSCode installation configured to act as a specialized IDE per project ty
 
 | Profile                              | File                             | Purpose                                              |
 | ------------------------------------ | -------------------------------- | ---------------------------------------------------- |
-| [Default](docs/profile-default.md)   | `profiles/Default.code-profile`  | Catch-all for misc projects                          |
-| [Laravel](docs/profile-laravel.md)   | `profiles/Laravel.code-profile`  | PHP · Laravel · Livewire · Inertia/React             |
-| [Flutter](docs/profile-flutter.md)   | `profiles/Flutter.code-profile`  | Dart · Flutter · Android (Java/Kotlin) · iOS (Swift) |
-| [Frontend](docs/profile-frontend.md) | `profiles/Frontend.code-profile` | React · Vue · Svelte · Astro · TypeScript            |
-| [Python](docs/profile-python.md)     | `profiles/Python.code-profile`   | Python · Jupyter · Data work                         |
+| [Default](docs/profile-default.md)           | `profiles/Default.code-profile`      | Catch-all for misc projects                          |
+| [Laravel](docs/profile-laravel.md)           | `profiles/Laravel.code-profile`      | PHP · Laravel · Livewire · Inertia/React             |
+| [Flutter](docs/profile-flutter.md)           | `profiles/Flutter.code-profile`      | Dart · Flutter · Android (Java/Kotlin) · iOS (Swift) |
+| [Frontend](docs/profile-frontend.md)         | `profiles/Frontend.code-profile`     | React · Vue · Svelte · Astro · TypeScript            |
+| [React Native](docs/profile-react-native.md) | `profiles/ReactNative.code-profile`  | React Native · Expo · NativeWind                     |
+| [Node](docs/profile-node.md)                 | `profiles/Node.code-profile`         | Node.js · Express · NestJS · Prisma                  |
+| [Python](docs/profile-python.md)             | `profiles/Python.code-profile`       | Python · Jupyter · Data work                         |
 
 ## User Settings
 
@@ -47,6 +49,8 @@ Single VSCode installation configured to act as a specialized IDE per project ty
 | `kisstkondoros.vscode-gutter-preview` | Image preview in gutter                |
 | `ms-azuretools.vscode-docker`         | Docker management                      |
 | `ms-azuretools.vscode-containers`     | Container tools                        |
+| `mikestead.dotenv`                    | `.env` file syntax highlighting        |
+
 
 ## Sidebar Layout
 

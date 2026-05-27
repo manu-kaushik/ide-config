@@ -6,7 +6,7 @@ Python development — scripts, web backends (Django/FastAPI/Flask), data work, 
 
 ---
 
-## Extensions (19)
+## Extensions (20)
 
 ### Python Core
 | Extension       | ID                         | Purpose                                                         |
@@ -28,7 +28,7 @@ Python development — scripts, web backends (Django/FastAPI/Flask), data work, 
 | Jupyter   | `ms-toolsai.jupyter` | Run `.ipynb` notebooks inline, cell-by-cell output, variable explorer |
 
 ### Universal (shared with all profiles)
-GitLens, Error Lens, Todo Tree, Path Intellisense, Markdown, YAML, Dev Containers, WSL, Docker, Color Highlight, Image Preview, Material Icons.
+GitLens, Error Lens, Todo Tree, Path Intellisense, Markdown, YAML, Dev Containers, WSL, Docker, Color Highlight, Image Preview, Material Icons, DotENV.
 
 ---
 
