@@ -69,4 +69,3 @@ Language-specific formatters for PHP, Python, and Dart are set in their respecti
 
 - **Settings vs Profile settings**: If you want a setting to apply everywhere unconditionally, put it here. If it should only apply within a specific language or project type, put it in the relevant profile's `[language]` block instead.
 - **How to edit**: `Ctrl+Shift+P → Preferences: Open User Settings (JSON)` opens the live file. Changes here take effect immediately without reloading.
-- **Windsurf**: `settings.json` inside the `windsurf/` folder disables Windsurf agent features (ACP, Devin). Merge into your user settings if using Windsurf for inline completion.

@@ -52,14 +52,6 @@ Single VSCode installation configured to act as a specialized IDE per project ty
 | `mikestead.dotenv`                    | `.env` file syntax highlighting        |
 
 
-## Sidebar Layout
-
-All profiles have the Activity Bar ordered as: Explorer → Search → Source Control → Container Tools → Extensions. This is applied to each `.code-profile` and applied automatically on import.
-
-## Windsurf Settings
-
-`settings.json` inside the `windsurf/` folder disables Windsurf agent features (ACP, Devin). Merge into your VSCode user settings if using Windsurf for inline completion.
-
 ## Claude Commands
 
 `/commit-message` — generates a conventional commit message for staged changes without committing. The command file is `commit-message.md` inside the `.claude/commands/` folder. Place it there at the project level (as it is here) to scope it to this repo, or in `~/.claude/commands/` to make it available globally across all projects.

@@ -1,8 +1,0 @@
-{
-    "windsurf.acp.enabled": false,
-    "windsurf.cascade.enabled": false,
-    "windsurf.acp.enabledAgents": {
-        "devin-cloud": false,
-        "devin-cli": false
-    }
-}
