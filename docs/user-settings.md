@@ -17,12 +17,14 @@ Global settings stored in `settings.json`. These apply to **every profile** as t
 | `terminal.integrated.defaultProfile.windows` | `"Git Bash"`            | Uses Git Bash instead of PowerShell/CMD               |
 | `workbench.iconTheme`                        | `"material-icon-theme"` | Material Design file icons                            |
 | `workbench.editor.highlightModifiedTabs`     | `true`                  | Modified (unsaved) tabs show a dot indicator          |
+| `workbench.startupEditor`                    | `"none"`                | Skips the welcome/startup tab on launch               |
 
 ### Files & Git
 
 | Setting                             | Value     | Reason                                                                   |
 | ----------------------------------- | --------- | ------------------------------------------------------------------------ |
 | `git.openRepositoryInParentFolders` | `"never"` | Prevents VSCode from walking up to find a git repo in parent directories |
+| `files.autoSave`                    | `"afterDelay"` | Auto-saves files after a short delay                                |
 
 ### Editor Intelligence
 
@@ -56,6 +58,13 @@ Global settings stored in `settings.json`. These apply to **every profile** as t
 | Markdown         | — (word wrap on, quick suggestions enabled) |
 
 Language-specific formatters for PHP, Python, and Dart are set in their respective profiles since they depend on profile-specific extensions.
+
+### Privacy & Telemetry
+
+| Setting                        | Value   | Reason                              |
+| ------------------------------ | ------- | ----------------------------------- |
+| `chat.disableAIFeatures`       | `true`  | Disables VSCode built-in Copilot/AI |
+| `telemetry.feedback.enabled`   | `false` | Disables VSCode feedback telemetry  |
 
 ### Claude Code
 
