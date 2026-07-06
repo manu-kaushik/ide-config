@@ -2,6 +2,8 @@
 
 Profiles for [Cursor IDE](https://cursor.com) — each bundles extensions, settings, and keybindings for a specific project type. Switch profiles from the bottom-left avatar icon or via `Ctrl+Shift+P → Profiles: Switch Profile`.
 
+For VS Code, see [VS Code Profiles](code-profiles.md).
+
 **Import:** `Ctrl+Shift+P` → **Profiles: Import Profile** → select a file from `cursor-profiles/`.
 
 ---
