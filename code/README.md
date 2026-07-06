@@ -6,7 +6,7 @@ Profiles for VS Code — each bundles extensions, settings, and keybindings for 
 
 Each `.code-profile` file contains its own **extensions**, **settings**, and **keybindings**. Profile settings layer on top of user settings — profile wins on conflicts. Extensions are **isolated per profile** — installing an extension in one profile does not affect others.
 
-For Cursor IDE, see [Cursor Profiles](cursor-profiles.md).
+For Cursor IDE, see [Cursor](../cursor/README.md).
 
 ---
 
@@ -26,9 +26,7 @@ For Cursor IDE, see [Cursor Profiles](cursor-profiles.md).
 
 ## User Settings
 
-Global settings in [`settings.json`](../settings.json). These apply to **every profile** as the base layer. Profile-specific settings override these where they conflict.
-
-**Edit:** `Ctrl+Shift+P → Preferences: Open User Settings (JSON)`
+Global settings in [`settings.json`](settings.json). Apply via `Ctrl+Shift+P` → **Preferences: Open User Settings (JSON)**. These apply to **every profile** as the base layer. Profile-specific settings override these where they conflict.
 
 ### Window & Workbench
 

@@ -2,9 +2,9 @@
 
 Profiles for [Cursor IDE](https://cursor.com) — each bundles extensions, settings, and keybindings for a specific project type. Switch profiles from the bottom-left avatar icon or via `Ctrl+Shift+P → Profiles: Switch Profile`.
 
-For VS Code, see [VS Code Profiles](code-profiles.md).
+For VS Code, see [VS Code](../code/README.md).
 
-**Import:** `Ctrl+Shift+P` → **Profiles: Import Profile** → select a file from `cursor-profiles/`.
+**Import:** `Ctrl+Shift+P` → **Profiles: Import Profile** → select a file from `profiles/`.
 
 ---
 
@@ -12,13 +12,13 @@ For VS Code, see [VS Code Profiles](code-profiles.md).
 
 | Profile      | File                                     | Purpose                                              |
 | ------------ | ---------------------------------------- | ---------------------------------------------------- |
-| Default      | `cursor-profiles/Default.code-profile`     | Catch-all for misc projects                          |
-| Laravel      | `cursor-profiles/Laravel.code-profile`     | PHP · Laravel · Livewire · Inertia/React             |
-| Flutter      | `cursor-profiles/Flutter.code-profile`     | Dart · Flutter · Android (Java/Kotlin) · iOS (Swift) |
-| Frontend     | `cursor-profiles/Frontend.code-profile`    | React · Vue · Svelte · Astro · TypeScript            |
-| React Native | `cursor-profiles/ReactNative.code-profile` | React Native · Expo · NativeWind                     |
-| Node         | `cursor-profiles/Node.code-profile`        | Node.js · Express · NestJS · Prisma                  |
-| Python       | `cursor-profiles/Python.code-profile`      | Python · Ruff · Cursor Pyright                       |
+| Default      | `profiles/Default.code-profile`     | Catch-all for misc projects                          |
+| Laravel      | `profiles/Laravel.code-profile`     | PHP · Laravel · Livewire · Inertia/React             |
+| Flutter      | `profiles/Flutter.code-profile`     | Dart · Flutter · Android (Java/Kotlin) · iOS (Swift) |
+| Frontend     | `profiles/Frontend.code-profile`    | React · Vue · Svelte · Astro · TypeScript            |
+| React Native | `profiles/ReactNative.code-profile` | React Native · Expo · NativeWind                     |
+| Node         | `profiles/Node.code-profile`        | Node.js · Express · NestJS · Prisma                  |
+| Python       | `profiles/Python.code-profile`      | Python · Ruff · Cursor Pyright                       |
 
 ---
 
