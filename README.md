@@ -14,6 +14,22 @@ Single VSCode installation configured to act as a specialized IDE per project ty
 | [Node](docs/profile-node.md)                 | `profiles/Node.code-profile`         | Node.js · Express · NestJS · Prisma                  |
 | [Python](docs/profile-python.md)             | `profiles/Python.code-profile`       | Python · Jupyter · Data work                         |
 
+## Cursor Profiles
+
+Profiles for Cursor IDE — same project-type split as above, with extensions and settings tuned for Cursor.
+
+| Profile                              | File                                        | Purpose                                              |
+| ------------------------------------ | ------------------------------------------- | ---------------------------------------------------- |
+| [Default](docs/cursor-profiles.md#default) | `cursor-profiles/Default.code-profile`      | Catch-all for misc projects                          |
+| [Laravel](docs/cursor-profiles.md#laravel) | `cursor-profiles/Laravel.code-profile`      | PHP · Laravel · Livewire · Inertia/React             |
+| [Flutter](docs/cursor-profiles.md#flutter) | `cursor-profiles/Flutter.code-profile`      | Dart · Flutter · Android (Java/Kotlin) · iOS (Swift) |
+| [Frontend](docs/cursor-profiles.md#frontend) | `cursor-profiles/Frontend.code-profile`     | React · Vue · Svelte · Astro · TypeScript            |
+| [React Native](docs/cursor-profiles.md#react-native) | `cursor-profiles/ReactNative.code-profile`  | React Native · Expo · NativeWind                     |
+| [Node](docs/cursor-profiles.md#node) | `cursor-profiles/Node.code-profile`         | Node.js · Express · NestJS · Prisma                  |
+| [Python](docs/cursor-profiles.md#python) | `cursor-profiles/Python.code-profile`       | Python · Ruff · Cursor Pyright                       |
+
+See [Cursor Profiles](docs/cursor-profiles.md) for extensions, settings, and import instructions.
+
 ## User Settings
 
 [User Settings](docs/user-settings.md) — global settings applied on top of every profile (`settings.json`).
@@ -25,14 +41,14 @@ Single VSCode installation configured to act as a specialized IDE per project ty
 - Extensions are **isolated per profile** — installing an extension in one profile does not affect others
 - To import a profile: `Ctrl+Shift+P → Profiles: Import Profile` → select the `.code-profile` file
 
-## Common Keybindings (all profiles)
+## Common Keybindings
 
-| Key        | Action                      |
-| ---------- | --------------------------- |
-| `Alt+C`    | Open Claude Code in sidebar |
-| `Numpad -` | Clear terminal              |
+| Key        | Action                      | Profiles        |
+| ---------- | --------------------------- | --------------- |
+| `Alt+C`    | Open Claude Code in sidebar | VS Code only    |
+| `Numpad -` | Clear terminal              | VS Code + Cursor |
 
-## Shared Extensions (every profile includes these)
+## Shared Extensions (every VS Code profile includes these)
 
 | Extension                             | Purpose                                |
 | ------------------------------------- | -------------------------------------- |
@@ -50,7 +66,6 @@ Single VSCode installation configured to act as a specialized IDE per project ty
 | `ms-azuretools.vscode-docker`         | Docker management                      |
 | `ms-azuretools.vscode-containers`     | Container tools                        |
 | `mikestead.dotenv`                    | `.env` file syntax highlighting        |
-
 
 ## Claude Commands
 
