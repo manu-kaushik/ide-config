@@ -46,9 +46,9 @@ General-purpose profile for miscellaneous projects, config editing, and scriptin
 
 Python development — scripts, web backends (Django/FastAPI/Flask), and data work. Ruff handles formatting and linting; Cursor Pyright provides the language server.
 
-### Extensions (15)
+### Extensions (14)
 
-**Python:** Cursor Pyright, Ruff
+**Python:** Ruff
 
 **Formatting:** Prettier (for JS/TS files in mixed projects)
 
