@@ -1,13 +1,12 @@
-# Claude
+# Agents
 
-Slash commands and skills for Claude Code.
+Agent configuration for Cursor: slash commands and skills for SOURCE.md and AGENTS.md.
 
 ## Commands
 
-| Command           | File                         | Description |
-| ----------------- | ---------------------------- | ----------- |
-| `/commit-message` | `commands/commit-message.md` | Generate a conventional commit message for staged changes (does not commit) |
-| `/source`         | `commands/source.md`         | Ensure SOURCE.md exists; optionally sync AGENTS.md and/or CLAUDE.md |
+| Command   | File                 | Description |
+| --------- | -------------------- | ----------- |
+| `/source` | `commands/source.md` | Ensure SOURCE.md exists; optionally sync AGENTS.md and/or CLAUDE.md |
 
 ## Skills
 
@@ -15,13 +14,21 @@ Slash commands and skills for Claude Code.
 | -------- | ---------------- | ----------- |
 | `source` | `skills/source/` | Maintain SOURCE.md; sync AGENTS.md and/or CLAUDE.md per scope |
 
+### source
+
+| File        | Role |
+| ----------- | ---- |
+| `SOURCE.md` | **Required** — project facts |
+| `AGENTS.md` | Agent workflow |
+| `CLAUDE.md` | Claude Code guidance |
+
 Run `/source`, `/source agents`, or `/source claude`. SOURCE.md is always included; omitting scope creates all guidance files.
 
 ## Setup: source
 
-**1. Command** — copy `commands/source.md` to `~/.claude/commands/`.
+**1. Command** — copy `commands/source.md` to `~/.cursor/commands/`.
 
-**2. Skill** — copy `skills/source/` to `~/.claude/skills/source/`.
+**2. Skill** — copy `skills/source/` to `~/.cursor/skills/source/`.
 
 **3. Run** — open a project and invoke:
 
@@ -32,7 +39,3 @@ Run `/source`, `/source agents`, or `/source claude`. SOURCE.md is always includ
 | `/source claude` | `SOURCE.md`, `CLAUDE.md` |
 
 Re-runs refresh SOURCE.md and prepend SOURCE pointers to existing files without erasing content.
-
-## Setup: commit-message
-
-Copy `commands/commit-message.md` to `~/.claude/commands/`.

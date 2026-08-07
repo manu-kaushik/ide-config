@@ -6,6 +6,7 @@ Editor and tooling configuration for VS Code, Cursor, and Claude Code.
 | ------- | -------------------------------------- | -------------------------------- |
 | VS Code | `code/profiles/`, `code/settings.json` | [code/README.md](code/README.md) |
 | Cursor  | `cursor/profiles/`                     | [cursor/README.md](cursor/README.md) |
+| Agents  | `agents/commands/`, `agents/skills/`   | [agents/README.md](agents/README.md) |
 | Claude  | `claude/commands/`, `claude/skills/`   | [claude/README.md](claude/README.md) |
 
 ## Usage
@@ -16,4 +17,4 @@ Editor and tooling configuration for VS Code, Cursor, and Claude Code.
 
 **Cursor profiles:** `Ctrl+Shift+P` → **Profiles: Import Profile** → select a file from `cursor/profiles/`.
 
-**Claude commands and skills:** See [claude/README.md](claude/README.md).
+**Agent commands and skills:** See [agents/README.md](agents/README.md) and [claude/README.md](claude/README.md).
