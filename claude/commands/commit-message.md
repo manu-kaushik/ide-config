@@ -7,4 +7,4 @@ Generate a commit message for the currently staged changes. Do NOT run `git comm
    - If needed, a blank line followed by a short bullet-list body (one line per logical group of changes) explaining *why*, not *what*
    - Use conventional commit prefixes: `feat`, `fix`, `refactor`, `chore`, `docs`, `test`, `style`, `perf`
 
-3. Print the commit message in a code block, then stop. Do not commit, do not ask to commit.
+3. Print the commit message in a fenced code block, then stop. Do not soft-wrap lines inside the code block — keep the subject and each body line on a single line with no mid-line breaks. Do not commit, do not ask to commit.
