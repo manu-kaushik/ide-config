@@ -1,6 +1,6 @@
-# IDE Config
+# Editor Profiles
 
-Editor configuration for VS Code and Cursor — profiles and user settings for common project types.
+Editor profiles and user settings for VS Code and Cursor — common project types, ready to import.
 
 | Tool    | Contents                               | Documentation                    |
 | ------- | -------------------------------------- | -------------------------------- |
