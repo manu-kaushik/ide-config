@@ -1,12 +1,12 @@
 # Agents
 
-Agent configuration for Cursor: slash commands and skills for SOURCE.md and AGENTS.md.
+Agent configuration for Cursor: commands and skills for SOURCE.md and AGENTS.md.
 
 ## Commands
 
-| Command   | File                 | Description |
-| --------- | -------------------- | ----------- |
-| `/source` | `commands/source.md` | Ensure SOURCE.md exists as the persistent project record; sync guidance files |
+| Command           | File                         | Description |
+| ----------------- | ---------------------------- | ----------- |
+| `/commit-message` | `commands/commit-message.md` | Generate a conventional commit message for staged changes (does not commit) |
 
 ## Skills
 
@@ -28,11 +28,9 @@ Run `/source`, `/source agents`, or `/source claude`. SOURCE.md is always includ
 
 ## Setup: source
 
-**1. Command** — copy `commands/source.md` to `~/.cursor/commands/`.
+**1. Skill** — copy `skills/source/` to `~/.cursor/skills/source/`.
 
-**2. Skill** — copy `skills/source/` to `~/.cursor/skills/source/`.
-
-**3. Run** — open a project and invoke:
+**2. Run** — open a project and invoke `/source`:
 
 | Invocation | Creates in project root |
 | ---------- | ----------------------- |
@@ -41,3 +39,7 @@ Run `/source`, `/source agents`, or `/source claude`. SOURCE.md is always includ
 | `/source claude` | `SOURCE.md`, `CLAUDE.md` |
 
 Re-runs bootstrap from the repo, merge durable project knowledge, and prepend SOURCE pointers without erasing content. During normal work, agents update SOURCE.md when project facts change — not only when `/source` runs.
+
+## Setup: commit-message
+
+Copy `commands/commit-message.md` to `~/.cursor/commands/`.

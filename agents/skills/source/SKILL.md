@@ -1,6 +1,7 @@
 ---
 name: source
 description: Ensure SOURCE.md exists as the persistent project record; create or update AGENTS.md and/or CLAUDE.md to point to it. Use when the user runs /source or sets up project context. SOURCE carries project truth across all chats. Optional scope is agents or claude; omit scope for all guidance files.
+disable-model-invocation: true
 ---
 
 # Source
