@@ -4,7 +4,11 @@ Instructions for AI coding agents working in this repository.
 
 ## Project context
 
-Read [SOURCE.md](SOURCE.md) first for stack, structure, commands, architecture, and project-specific facts. Prefer SOURCE.md over this file or codebase inference when they conflict.
+Read [SOURCE.md](SOURCE.md) first — in every chat, before inferring from code or conversation. SOURCE.md is the persistent project record; chat history is not project memory.
+
+When you learn or change durable project facts (stack, architecture, decisions, deferrals, focus), update SOURCE.md. Append to Decisions and Deferred; rewrite Current focus when it shifts. Do not duplicate project facts in chat or in this file.
+
+Prefer SOURCE.md over this file or codebase inference when they conflict.
 
 ## Workflow
 
@@ -25,11 +29,13 @@ Read [SOURCE.md](SOURCE.md) first for stack, structure, commands, architecture, 
 
 **Do:**
 
--
+- Update SOURCE.md when project truth changes
 
 **Do not:**
 
--
+- Run `git commit`, `git push`, or open pull requests unless explicitly asked
+- Rely on conversation history for project facts — use SOURCE.md
+- Remove or overwrite SOURCE.md entries without reason
 
 ## Verification
 

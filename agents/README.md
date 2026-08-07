@@ -6,19 +6,21 @@ Agent configuration for Cursor: slash commands and skills for SOURCE.md and AGEN
 
 | Command   | File                 | Description |
 | --------- | -------------------- | ----------- |
-| `/source` | `commands/source.md` | Ensure SOURCE.md exists; optionally sync AGENTS.md and/or CLAUDE.md |
+| `/source` | `commands/source.md` | Ensure SOURCE.md exists as the persistent project record; sync guidance files |
 
 ## Skills
 
 | Skill    | Path             | Description |
 | -------- | ---------------- | ----------- |
-| `source` | `skills/source/` | Maintain SOURCE.md; sync AGENTS.md and/or CLAUDE.md per scope |
+| `source` | `skills/source/` | SOURCE.md carries project truth across all chats; agents update it when facts change |
 
 ### source
 
+SOURCE.md is the **persistent project record** — decisions, architecture, deferrals, focus. Chats are temporary; SOURCE.md is not. AGENTS.md and CLAUDE.md enforce read-first / update-when-changed behavior.
+
 | File        | Role |
 | ----------- | ---- |
-| `SOURCE.md` | **Required** — project facts |
+| `SOURCE.md` | **Required** — whole project on disk |
 | `AGENTS.md` | Agent workflow |
 | `CLAUDE.md` | Claude Code guidance |
 
@@ -38,4 +40,4 @@ Run `/source`, `/source agents`, or `/source claude`. SOURCE.md is always includ
 | `/source agents` | `SOURCE.md`, `AGENTS.md` |
 | `/source claude` | `SOURCE.md`, `CLAUDE.md` |
 
-Re-runs refresh SOURCE.md and prepend SOURCE pointers to existing files without erasing content.
+Re-runs bootstrap from the repo, merge durable project knowledge, and prepend SOURCE pointers without erasing content. During normal work, agents update SOURCE.md when project facts change — not only when `/source` runs.

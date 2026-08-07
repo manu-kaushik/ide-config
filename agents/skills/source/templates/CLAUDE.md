@@ -6,7 +6,11 @@ Instructions for Claude Code in this repository.
 
 @SOURCE.md
 
-Read [SOURCE.md](SOURCE.md) for project facts. Prefer SOURCE.md over this file or codebase inference when they conflict.
+Read SOURCE.md first — in every chat, before inferring from code or conversation. SOURCE.md is the persistent project record; chat history is not project memory.
+
+When you learn or change durable project facts (stack, architecture, decisions, deferrals, focus), update SOURCE.md. Append to Decisions and Deferred; rewrite Current focus when it shifts. Do not duplicate project facts in chat or in this file.
+
+Prefer SOURCE.md over this file or codebase inference when they conflict.
 
 ## Agent behavior
 
@@ -18,11 +22,11 @@ Read [SOURCE.md](SOURCE.md) for project facts. Prefer SOURCE.md over this file o
 
 <!-- Optional: slash commands, skills, MCP servers, tool permissions -->
 
-| Item     | Location                    |
-| -------- | --------------------------- |
-| Commands | `.claude/commands/`         |
-| Skills   | `.claude/skills/`           |
+| Item     | Location            |
+| -------- | ------------------- |
+| Commands | `.claude/commands/` |
+| Skills   | `.claude/skills/`   |
 
 ## Boundaries
 
-See AGENTS.md when present. Add Claude-only overrides below if needed.
+See AGENTS.md when present. Do not run `git commit` or `git push` unless explicitly asked. Add Claude-only overrides below if needed.

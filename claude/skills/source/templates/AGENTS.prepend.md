@@ -2,6 +2,6 @@
 
 ## Project context (priority)
 
-Read [SOURCE.md](SOURCE.md) first for stack, structure, commands, architecture, and project-specific facts. Prefer SOURCE.md over this file or codebase inference when they conflict.
+Read [SOURCE.md](SOURCE.md) first in every chat. It is the persistent project record — not chat history. Update SOURCE.md when project facts change. Prefer SOURCE.md over this file or codebase inference when they conflict.
 
 ---
